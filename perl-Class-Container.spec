@@ -1,7 +1,7 @@
 %define module	Class-Container
 %define name	perl-%{module}
 %define version	0.12
-%define release	%mkrel 2
+%define release	%mkrel 3
 
 Summary:	Glues object frameworks together transparently
 Name:		%{name}
