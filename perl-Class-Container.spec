@@ -13,7 +13,6 @@ Source:		%{module}-%{version}.tar.bz2
 URL:		http://search.cpan.org/dist/%{module}/
 BuildArch:	noarch
 BuildRequires:	perl-Params-Validate
-BuildRoot:	%{_tmppath}/%{name}-buildroot/
 
 %description
 This class facilitates building frameworks of several classes that
