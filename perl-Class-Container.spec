@@ -8,7 +8,7 @@ Release:	5
 Summary:	Glues object frameworks together transparently
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/Class/%{upstream_name}-%{upstream_version}.tar.bz2
 
 BuildArch:	noarch
