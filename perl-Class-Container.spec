@@ -1,15 +1,15 @@
 %define upstream_name	 Class-Container
-%define upstream_version 0.12
+%define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Glues object frameworks together transparently
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/Class/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://github.com/kenahoo/Class-Container
+Source0:	https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Class-Container-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 BuildRequires:	make
