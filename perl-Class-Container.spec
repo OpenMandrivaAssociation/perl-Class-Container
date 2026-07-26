@@ -1,15 +1,13 @@
 %define upstream_name	 Class-Container
-%define upstream_version 0.13
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.13
+Release:	2
 
 Summary:	Glues object frameworks together transparently
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/kenahoo/Class-Container
-Source0:	https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Class-Container-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Class-Container-%{version}.tar.gz
 
 BuildArch:	noarch
 BuildRequires:	make
@@ -25,7 +23,7 @@ appropriate parameters to the right class, possibly substituting other
 subclasses for any of these objects.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -50,9 +48,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Aug 01 2009 Jérôme Quelin <jquelin@mandriva.org> 0.120.0-1mdv2011.0
 + Revision: 406873
-- rebuild using %%perl_convert_version
-
-* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 0.12-5mdv2009.0
+- rebuild using %0.13 Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 0.12-5mdv2009.0
 + Revision: 255895
 - rebuild
 
